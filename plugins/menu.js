@@ -19,7 +19,6 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
-  let arigato = fs.readFileSync('./src/arigato.mp3')
   let teks = `${args[0]}`.toLowerCase()
   let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'anime', 'nsfw', 'internet', 'rpg', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'islamic', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
