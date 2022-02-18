@@ -6,11 +6,6 @@ async function handler(m) {
   let njid = number + '@s.whatsapp.net'
   let onW = await this.isOnWhatsApp(njid) || { isBusiness: false }
 
-  let name2 = 'Andin'
-  number2 = owner[1].replace(/[^0-9]/g, '')
-  let njid2 = number2 + '@s.whatsapp.net'
-  let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
-
 
   m.reply(`Nomer owner itu *bukan bot*, tapi nomor _*pemilik bot*_\n\nSilahan chat jika ada keperluan.\n`)
   this.sendMessage(m.chat, {
