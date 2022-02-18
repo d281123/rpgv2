@@ -1,0 +1,214 @@
+{
+  "users": {
+    "6283112170548@s.whatsapp.net": {
+      "exp": 332,
+      "limit": 11,
+      "registered": true,
+      "lastclaim": 0,
+      "name": "dhani",
+      "age": 18,
+      "regTime": 1644419850927,
+      "afk": -1,
+      "afkReason": "",
+      "autolevelup": false,
+      "banned": false,
+      "level": 0,
+      "premium": false,
+      "premiumTime": 0,
+      "role": "Hyaktaku V",
+      "joincount": 0,
+      "call": 0,
+      "pc": 1644419839347,
+      "reward": 0,
+      "dailyReward": 0,
+      "warning": 0
+    },
+    "6283195098169@s.whatsapp.net": {
+      "exp": 13,
+      "limit": 10,
+      "registered": false,
+      "lastclaim": 0,
+      "name": "RUSHBOTZ",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "autolevelup": false,
+      "banned": false,
+      "level": 0,
+      "premium": false,
+      "premiumTime": 0,
+      "role": "Hyaktaku V",
+      "joincount": 0,
+      "call": 0,
+      "pc": 0,
+      "reward": 0,
+      "dailyReward": 0,
+      "warning": 0
+    },
+    "6285730903853@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 10,
+      "registered": false,
+      "lastclaim": 0,
+      "name": "+62 857-3090-3853",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "autolevelup": false,
+      "banned": false,
+      "level": 0,
+      "premium": false,
+      "premiumTime": 0,
+      "role": "",
+      "joincount": 0,
+      "call": 0,
+      "pc": 1644251867589,
+      "reward": 0,
+      "dailyReward": 0,
+      "warning": 0
+    }
+  },
+  "chats": {
+    "6283112170548@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "antiLink": true,
+      "autoread": false,
+      "broadcast": true,
+      "delete": true,
+      "desc": true,
+      "getmsg": false,
+      "expired": 0,
+      "stiker": false,
+      "viewonce": true,
+      "nsfw": true,
+      "badword": false
+    },
+    "6285730903853@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "antiLink": true,
+      "autoread": false,
+      "broadcast": true,
+      "delete": true,
+      "desc": true,
+      "getmsg": false,
+      "expired": 0,
+      "stiker": false,
+      "viewonce": true,
+      "nsfw": true,
+      "badword": false
+    }
+  },
+  "stats": {
+    "menu.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1644253473563,
+      "lastSuccess": 1644253473563
+    },
+    "creator.js": {
+      "total": 7,
+      "success": 3,
+      "last": 1644253481383,
+      "lastSuccess": 1644253481383
+    },
+    "snk.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1644253486411,
+      "lastSuccess": 1644253486411
+    },
+    "dompet.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1644419973910,
+      "lastSuccess": 1644419973910
+    },
+    "register.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1644419850932,
+      "lastSuccess": 1644419850932
+    },
+    "daily.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1644420082637,
+      "lastSuccess": 1644420082637
+    },
+    "levelup.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1644420086560,
+      "lastSuccess": 1644420086560
+    },
+    "enable.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1644419966034,
+      "lastSuccess": 0
+    },
+    "adventure.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1644419979868,
+      "lastSuccess": 1644419979868
+    },
+    "shop.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1644419981492,
+      "lastSuccess": 1644419981492
+    },
+    "math.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1644420014343,
+      "lastSuccess": 1644420014343
+    },
+    "mining.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1644420174014,
+      "lastSuccess": 1644420174014
+    },
+    "buylimit.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1644420191371,
+      "lastSuccess": 1644420191371
+    }
+  },
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "6283195098169@s.whatsapp.net": {
+      "anon": true,
+      "anticall": true,
+      "antispam": true,
+      "antitroli": true,
+      "group": false,
+      "jadibot": false,
+      "private": false,
+      "restrict": false,
+      "self": false,
+      "backup": true,
+      "backupDB": 1644419834992,
+      "statusUpdate": false,
+      "status": 1644420191356
+    }
+  }
+}
