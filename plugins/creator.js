@@ -458,6 +458,162 @@ X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '')
 END:VCARD
 `.trim()
     }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+    displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
       displayname: name2, vcard: `
 BEGIN:VCARD
 VERSION:3.0
