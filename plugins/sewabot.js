@@ -3,7 +3,6 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
 ┌〔 List Berlangganan 〕
-├ 2 Bulan
 ├ 1 Bulan
 ├ 1 Minggu
 ├ Trial 3 Hari
@@ -19,9 +18,9 @@ GoPay: 083112170548
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
         {title: 'permanen', description: "Rp15.000\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
-        {title: '1 Bulan', description: "Rp10.000\nSewa bot selama 1 bulan.", rowId:".masuk"},
-        {title: '1 Minggu', description: "Rp5.000\nSewa bot selama 1 minggu.", rowId:".masuk"},
-        {title: 'Trial', description: "GRATIS\nBot gratis 3 Hari.", rowId:".join"},
+        {title: '1 Bulan', description: "Rp5.000\nSewa bot selama 1 bulan.", rowId:".masuk"},
+        {title: '1 Minggu', description: "Rp2.000\nSewa bot selama 1 minggu.", rowId:".masuk"},
+        {title: 'Trial', description: "GRATIS\nBot gratis 3 Hari. pc owner", rowId:".join"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".snk"},
        ] }],
